@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFE9BE492DC368510038272F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE9BE452DC368510038272F /* Assets.xcassets */; };
+		EFE9BE4A2DC368510038272F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9BE462DC368510038272F /* ContentView.swift */; };
+		EFE9BE4B2DC368510038272F /* DigitalAndAnalogClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9BE472DC368510038272F /* DigitalAndAnalogClockApp.swift */; };
+		EFE9BE4D2DC368AC0038272F /* DigitalClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9BE4C2DC368AC0038272F /* DigitalClock.swift */; };
+		EFE9BE4F2DC36A550038272F /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9BE4E2DC36A550038272F /* AnalogClock.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFE9BE372DC368490038272F /* DigitalAndAnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalAndAnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE9BE452DC368510038272F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE9BE462DC368510038272F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFE9BE472DC368510038272F /* DigitalAndAnalogClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalAndAnalogClockApp.swift; sourceTree = "<group>"; };
+		EFE9BE4C2DC368AC0038272F /* DigitalClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClock.swift; sourceTree = "<group>"; };
+		EFE9BE4E2DC36A550038272F /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFE9BE392DC368490038272F /* DigitalAndAnalogClock */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DigitalAndAnalogClock;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFE9BE342DC368490038272F /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		EFE9BE2E2DC368490038272F = {
 			isa = PBXGroup;
 			children = (
-				EFE9BE392DC368490038272F /* DigitalAndAnalogClock */,
+				EFE9BE482DC368510038272F /* DigitalAndAnalogClock */,
 				EFE9BE382DC368490038272F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,18 @@
 				EFE9BE372DC368490038272F /* DigitalAndAnalogClock.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE9BE482DC368510038272F /* DigitalAndAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				EFE9BE452DC368510038272F /* Assets.xcassets */,
+				EFE9BE4C2DC368AC0038272F /* DigitalClock.swift */,
+				EFE9BE4E2DC36A550038272F /* AnalogClock.swift */,
+				EFE9BE462DC368510038272F /* ContentView.swift */,
+				EFE9BE472DC368510038272F /* DigitalAndAnalogClockApp.swift */,
+			);
+			path = DigitalAndAnalogClock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +76,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFE9BE392DC368490038272F /* DigitalAndAnalogClock */,
 			);
 			name = DigitalAndAnalogClock;
 			packageProductDependencies = (
@@ -109,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE9BE492DC368510038272F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE9BE4A2DC368510038272F /* ContentView.swift in Sources */,
+				EFE9BE4D2DC368AC0038272F /* DigitalClock.swift in Sources */,
+				EFE9BE4F2DC36A550038272F /* AnalogClock.swift in Sources */,
+				EFE9BE4B2DC368510038272F /* DigitalAndAnalogClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
